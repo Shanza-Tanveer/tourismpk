@@ -36,6 +36,28 @@ public class FacilitiesController {
 
     @PostMapping
     public Facilities saveFacilities(@Validated @RequestBody Facilities facilities) {
-        return facilitiesRepo.save(facilities);
+
+        String isError = validateFacilities(facilities);
+
+        if (Strings.isBlank(isError)) {
+            //return isError;
+        }
+        return facilitiesServiceImpl.saveFacilities(facilities);
+    }
+    private String validateFacilities (Facilities facilities) {
+
+        if(Strings.isBlank(facilities.getName())) {
+            return "Facilities name is mandatory";
+        }
+
+        if(Strings.isBlank(facilities.getStatus())) {
+            return "Facilities status is mandatory";
+        }
+        return null;
+
+        if ( facilities.getId() == null || facilities.getId() == 0) {
+            return isError;
+        }
     }
 }
+

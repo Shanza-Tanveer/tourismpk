@@ -35,7 +35,36 @@ public class OrderController {
     }
 
     @PostMapping
-    public Order saveOrder(@Validated @RequestBody Order order) {
-        return orderRepo.save(order);
+    public Order saveInfo(@Validated @RequestBody Order order) {
+        String isError = validateOrder(order);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+        return orderServiceImpl.saveOrder(order);
+    }
+
+    private String validateOrder(Order order) {
+        if (Strings.isBlank(order.getStatus())) {
+            return "Order status is mandatory";
+        }
+
+        if (Strings.isBlank(order.getSubTotal())) {
+            return "Order subTotal is mandatory";
+        }
+
+        if (Strings.isBlank(order.getTax())) {
+            return "Order tax is mandatory";
+        }
+
+        if (Strings.isBlank(order.getGrandTotal())) {
+            return "Order grandTotal is mandatory";
+        }
+
+        if (Strings.isBlank(order.getDiscount())) {
+            return "Order discount is mandatory";
+        }
+
+        return null;
     }
 }

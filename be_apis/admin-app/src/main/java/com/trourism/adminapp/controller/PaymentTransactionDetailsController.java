@@ -35,7 +35,32 @@ public class PaymentTransactionDetailsController {
     }
 
     @PostMapping
-    public PaymentTransactionDetails savePaymentTransactionDetails(@Validated @RequestBody PaymentTransactionDetails paymentTransactionDetails) {
-        return paymentTransactionDetailsRepo.save(paymentTransactionDetails);
+    public PaymentTransactionDetails paymentTransactionDetails(@Validated @RequestBody PaymentTransactionDetails paymentTransactionDetails) {
+        String isError = validatePaymentTransactionDetails(paymentTransactionDetails);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+        return paymentTransactionDetailsServiceImpl.savePaymentTransactionDetails(paymentTransactionDetails);
+    }
+
+    private String validatePaymentTransactionDetails(PaymentTransactionDetails paymentTransactionDetails) {
+        if (Strings.isBlank(paymentTransactionDetails.getStatus())) {
+            return "PaymentTransactionDetails status is mandatory";
+        }
+
+        if (Strings.isBlank(paymentTransactionDetails.getCardHolderName())) {
+            return "PaymentTransactionDetails cardHolderName is mandatory";
+        }
+
+        if (Strings.isBlank(paymentTransactionDetails.getCardType())) {
+            return "PaymentTransactionDetails cardType is mandatory";
+        }
+
+        if (Strings.isBlank(paymentTransactionDetails.getCVC())) {
+            return "PaymentTransactionDetails cvc is mandatory";
+        }
+
+        return null;
     }
 }

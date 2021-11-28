@@ -2,6 +2,7 @@ package com.tourism.siteapp.security.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tourism.siteapp.security.context.RequestContext;
+import com.tourism.siteapp.security.state.UserState;
 import com.tourism.siteapp.security.state.UserStateRequestProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -28,7 +29,7 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
         RequestContext.getRequestContext().setWebRequest(webRequest);
         userStateRequestProcessor.process(webRequest);
 
-        //httpServletResponse.getWriter().println(objectMapper.writeValueAsString(UserState.getUser()));
+        httpServletResponse.getWriter().println(objectMapper.writeValueAsString(UserState.getUser()));
         httpServletResponse.setContentType("application/json");
     }
 }

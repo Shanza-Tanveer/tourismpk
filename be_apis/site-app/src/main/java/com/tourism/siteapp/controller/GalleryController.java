@@ -36,6 +36,23 @@ public class GalleryController {
 
     @PostMapping
     public Gallery saveGallery(@Validated @RequestBody Gallery gallery){
-        return galleryRepo.save(gallery);
+        String isError = validateGallery(gallery);
+
+        if (Strings.isBlank(isError)) {
+            //return isError;
+        }
+        return galleryServiceImpl.saveGallery(gallery);
+    }
+    private String validateGallery (Gallery gallery) {
+        if(Strings.isBlank(gallery.getUrl())) {
+            return "Url is mandatory";
+        }
+        if(Strings.isBlank(gallery.getTitle())) {
+            return "Title is mandatory";
+        }
+        if(Strings.isBlank(gallery.getStatus())) {
+            return "Status is mandatory";
+        }
+        return null;
     }
 }

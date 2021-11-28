@@ -36,6 +36,27 @@ public class ReviewController {
 
     @PostMapping
     public Review saveReview(@Validated @RequestBody Review review) {
-        return reviewRepo.save(review);
+        String isError = validateReview(review);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+        return ReviewServiceImpl.saveReviewDetails(review);
+    }
+
+    private String validateReview(Review review) {
+        if (Strings.isBlank(review.getTitle())) {
+            return "Review title is mandatory";
+        }
+
+        if (Strings.isBlank(review.getStatus())) {
+            return "Review status is mandatory";
+        }
+
+        if (Strings.isBlank(review.getContent())) {
+            return "Review content is mandatory";
+        }
+
+        return null;
     }
 }

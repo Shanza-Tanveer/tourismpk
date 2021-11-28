@@ -35,7 +35,43 @@ public class HotelBasicInfoController {
     }
 
     @PostMapping
-    public HotelBasicInfo saveHotelBasicInfo(@Validated @RequestBody HotelBasicInfo hotelBasicInfo) {
-        return hotelBasicInfoRepo.save(hotelBasicInfo);
+    public HotelBasicInfo saveInfo(@Validated @RequestBody HotelBasicInfo hotelBasicInfo) {
+        String isError = validateHotelBasicInfo(hotelBasicInfo);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+        return hotelBasicInfoServiceImpl.saveInfo(hotelBasicInfo);
     }
+    private String validateHotelBasicInfo (HotelBasicInfo hotelBasicInfo) {
+        if(Strings.isBlank(hotelBasicInfo.getHotelName())) {
+            return "Hotel name is mandatory";
+        }
+        if(Strings.isBlank(hotelBasicInfo.getHotelCode())) {
+            return "Hotel code is mandatory";
+        }
+
+        if(Strings.isBlank(hotelBasicInfo.getPostCode())) {
+            return "Hotel postcode is mandatory";
+        }
+
+        if(Strings.isBlank(hotelBasicInfo.getAddress())) {
+            return "Hotel address is mandatory";
+        }
+
+        if(Strings.isBlank(hotelBasicInfo.getCity())) {
+            return "Hotel city is mandatory";
+        }
+
+        if(Strings.isBlank(hotelBasicInfo.getCountry())) {
+            return "Hotel country is mandatory";
+        }
+
+        if(Strings.isBlank(hotelBasicInfo.getStarRating())) {
+            return "Hotel star rating is mandatory";
+        }
+
+        return null;
+    }
+
 }

@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.util.Date;
 
-
+@Data
 @Entity
 @Table(name = "hotel_basic_info")
 public class HotelBasicInfo {

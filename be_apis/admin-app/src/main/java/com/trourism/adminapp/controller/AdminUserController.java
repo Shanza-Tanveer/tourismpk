@@ -1,4 +1,4 @@
-package com.tourism.tourismcore.controller;
+package com.trourism.adminapp.controller;
 
 import com.tourism.tourismcore.domain.AdminUser;
 import com.tourism.tourismcore.repository.AdminUserRepo;
@@ -35,9 +35,31 @@ public class AdminUserController {
         }
     }
 
+    @GetMapping("/{userName}")
+    public ResponseEntity<AdminUser> findAdminUserByString(@PathVariable(value = "userName") String userName){
+
+        return ResponseEntity.ok().body(adminServiceImpl.getUserByUserName(userName));
+    }
+
     @PostMapping
     public AdminUser saveUser(@Validated @RequestBody AdminUser adminUser){
-        return adminUserRepo.save(adminUser);
+
+        String isError = validateAdminUser(adminUser);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+
+        return adminServiceImpl.saveUser(adminUser);
+    }
+    private String validateAdminUser (AdminUser adminUser) {
+        if (Strings.isBlank(adminUser.getUserName())) {
+            return "User name is mandatory";
+        }
+        if (Strings.isBlank(adminUser.getEmail())) {
+            return "Email is mandatory";
+        }
+        return null;
     }
 }
 

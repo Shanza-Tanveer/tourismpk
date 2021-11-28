@@ -37,6 +37,28 @@ public class OrderItemDetailsController {
 
     @PostMapping
     public OrderItemDetails saveOrderItemDetails(@Validated @RequestBody OrderItemDetails orderItemDetails) {
-        return orderItemDetailsRepo.save(orderItemDetails);
+        String isError = validateOrderItemDetails(orderItemDetails);
+
+        if (Strings.isBlank(isError)) {
+            // return isError;
+        }
+        return orderItemDetailsServiceImpl.saveOrderItemDetails(orderItemDetails);
+    }
+
+    private String validateOrderItemDetails(OrderItemDetails orderItemDetails) {
+        if (Strings.isBlank(orderItemDetails.getQuantity())) {
+            return "OrderItemDetails quantity is mandatory";
+        }
+
+        if (Strings.isBlank(orderItemDetails.getStatus())) {
+            return "OrderItemDetails status is mandatory";
+        }
+
+        if (Strings.isBlank(orderItemDetails.getPaymentStatus())) {
+            return "OrderItemDetails paymentStatus is mandatory";
+        }
+
+        return null;
     }
 }
+
