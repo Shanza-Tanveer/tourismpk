@@ -1,0 +1,60 @@
+spring:
+  datasource:
+    url: ${RDS_HOST:jdbc:postgresql://localhost:5432/tourismpk}
+    username: ${RDS_USER:postgres}
+    password: ${RDS_PWD:shanza}
+    hikari:
+      maximum-pool-size: ${POOL_MAX_SIZE:10}
+      leakDetectionThreshold: 25000
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  thymeleaf:
+    mode: HTML
+    cache: false
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+api:
+  prefix: api/v1/ext/
+  ui_prefix: api/v1/ui/
+  public_prefix: api/v1/rest/
+
+
+server:
+  port: 8070
+  servlet:
+    session:
+      timeout: 60m
+      cookie:
+        name: ADMINACTIVEID
+  tomcat:
+    max-swallow-size: 100000000
+    max-http-form-post-size: 100000000
+  compression:
+    enabled: true
+    excluded-user-agents:
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,image/gif,image/jpeg,image/png,application/json
+    min-response-size: 500
+
+
+DB_URL: ${IMPORT_DB_URL:jdbc:postgresql://localhost:5432/tourismpk}
+DB_USER: ${IMPORT_DB_USER:postgres}
+DB_PASS: ${IMPORT_DB_PASS:shanza}
+
+s3:
+  ui: ${S3_UI_BUCKET:tourismpk-admin-ui-stage}
+  cms: ${S3_CMS_BUCKET:tourismpk-cms-stage}
+
+

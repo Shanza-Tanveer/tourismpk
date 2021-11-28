@@ -74,6 +74,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .exceptionHandling()
                 .authenticationEntryPoint(new AuthFailureEntryPoint(HttpStatus.UNAUTHORIZED, responseBody));
+
                 //.and().addFilterBefore(jwtSecurityFilter, UsernamePasswordAuthenticationFilter.class);
     }
 
