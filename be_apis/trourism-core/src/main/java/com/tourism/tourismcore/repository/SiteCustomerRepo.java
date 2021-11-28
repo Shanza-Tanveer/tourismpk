@@ -16,4 +16,7 @@ public interface SiteCustomerRepo extends JpaRepository<SiteCustomer, Integer> {
 
     @Query(value = "select customer from SiteCustomer customer where customer.id = :id")
     SiteCustomer fetchCustomerById (@Param("id") Integer customerId);
+
+    @Query(value = "select customer from SiteCustomer customer where customer.userName = :userName")
+    SiteCustomer readByUserName (@Param("userName") String userName);
 }

@@ -1,17 +1,25 @@
 package com.tourism.tourismcore.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Data;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import java.util.Date;
 
 
+@Data
 @Entity
 @Table(name = "site_customer")
 public class SiteCustomer {
 
     @Column(name = "id", unique = true)
     private int id;
+
+    @Column(name = "user_name" )
+    private String userName;
 
     @Column(name = "first_name" )
     private String firstName;
@@ -31,14 +39,12 @@ public class SiteCustomer {
     @Column(name = "email")
     private String Email;
 
-    @Column(name = "password")
-    private String Password;
+    @Column(name = "PASSWORD")
+    @JsonIgnore
+    private String password;
 
     @Column(name = "login_ip")
     private String loginIp;
-
-    @Column(name = "email_verified")
-    private String emailVerified;
 
     @Column(name = "modified_by")
     private String modifiedBy;
@@ -54,5 +60,23 @@ public class SiteCustomer {
 
     @Column(name = "is_active")
     private Boolean isActive;
+
+    @Column(name = "avatar")
+    private String avatar;
+
+    @Column(name = "EMAIL_VERIFIED")
+    private boolean emailVerified;
+
+    @Column(name = "IS_REGISTERED")
+    private boolean registered;
+
+    @Transient
+    private boolean cookied;
+
+    @Transient
+    private boolean loggedIn;
+
+    @Transient
+    private String unencodedPassword;
 
 }
