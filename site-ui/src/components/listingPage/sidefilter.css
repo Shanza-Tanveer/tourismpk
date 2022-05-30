@@ -1,0 +1,226 @@
+/* 1st div */
+
+.filterlist {
+  position: absolute;
+  margin-left: 141px;
+}
+
+.filterlist div {
+  border-color: #c6c6c6;
+}
+
+.filter_h1 {
+  border-style: solid;
+  border-width: thin;
+  border-bottom: none;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.filter_h1 h1 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 193px;
+  margin-left: 8px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  height: 29px;
+}
+
+/* 2nd div */
+
+.filter_items {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
+}
+
+.filter_items h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+/* .previous_filter and .input-1 for 1st div and all */
+
+.previous_filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-1 {
+  margin-left: 10px;
+}
+
+.input-1 input {
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.input-1 label {
+  margin-left: 8px;
+  font-size: 13px;
+  color: black;
+  cursor: pointer;
+}
+
+.previous_filter p {
+  margin-right: 14px;
+  font-size: 13px;
+  color: black;
+}
+
+.toogle_switch {
+  display: flex;
+}
+
+.toogle_switch p {
+  margin-left: 14px;
+  font-size: 15px;
+  color: black;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 21px;
+  margin-left: 9px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 13px;
+  left: 5px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* 5th div */
+
+.health_saftey {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+  border-width: thin;
+  border-bottom: none;
+}
+
+.health_saftey h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+
+.saftey {
+  display: flex;
+  margin-top: 5px;
+}
+
+.input-2 {
+  margin-left: 10px;
+}
+
+.input-2 input {
+  width: 21px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.input-2 label {
+  margin-left: 8px;
+  font-size: 13px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+}
+
+.health_saftey_para p {
+  margin-left: 210px;
+  margin-top: 14px;
+  font-size: 13px;
+  color: black;
+}
+
+.distance_para p {
+  font-size: 13px;
+  margin-left: 38px;
+  color: black;
+}
+
+.review_para1 p {
+  margin-left: 39px;
+  font-size: 13px;
+  color: black;
+}
+
+/* 22th div */
+
+.room_accessibility {
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 10px;
+  border-width: thin;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+.room_accessibility h1 {
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-weight: bold;
+}

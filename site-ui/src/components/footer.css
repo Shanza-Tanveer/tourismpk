@@ -1,0 +1,21 @@
+.regions {
+  background-color: #ededed;
+  margin-top: 156px;
+  display: flex;
+}
+
+.regions ul li a {
+  color: #1b4d89;
+  font-size: 13px;
+  line-height: 27px;
+}
+
+.regions ul li a:hover {
+  color: brown;
+}
+
+.regions div {
+  margin-top: 37px;
+  margin-bottom: 55px;
+  margin-left: 89px;
+}

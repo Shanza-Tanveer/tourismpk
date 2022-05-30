@@ -1,0 +1,186 @@
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.outer_div {
+  border-style: solid;
+  border-color: #c6c6c6;
+  border-width: thin;
+  float: right;
+  margin-right: 125px;
+  margin-top: 18px;
+}
+
+.inner_div {
+  display: flex;
+  margin: 18px;
+}
+
+.upper_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.first_div {
+  margin-left: 18px;
+}
+
+.first_div_p p {
+  font-size: 12px;
+  height: 10px;
+  color: #0071c2;
+  font-weight: bold;
+}
+
+.first_div_p {
+  margin-top: 25px;
+}
+
+.first_div p {
+  font-size: 12px;
+  height: 10px;
+  color: black;
+}
+
+.first_div h2 {
+  height: 25px;
+  font-weight: bold;
+  color: #0071c2;
+}
+
+.first_div_h2 {
+  max-width: 368px;
+}
+
+.first_div h2:hover {
+  color: brown;
+}
+
+.property_p {
+  cursor: auto;
+}
+
+.third_div {
+  margin-left: 18px;
+  margin-left: 18px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  border-width: 2px;
+}
+
+.third_div p {
+  height: 26px;
+  font-size: 12px;
+  color: black;
+  cursor: auto;
+  width: 358px;
+  margin-left: 8px;
+}
+
+.third_div_p p {
+  height: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  cursor: auto;
+  margin-left: 8px;
+}
+
+.third_div_p1 p {
+  height: 9px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #008009;
+  cursor: auto;
+  margin-top: -11px;
+}
+
+.third_div_p2 p {
+  height: 9px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #008009;
+}
+
+.third_div_p3 p {
+  color: #c00;
+  font-weight: bold;
+}
+
+.facilities_p {
+  margin-top: -15px;
+}
+
+.fourth_div {
+  margin-top: 62px;
+}
+
+.fourth_div p {
+  font-size: 12px;
+  height: 11px;
+  text-align: right;
+  color: black;
+  cursor: auto;
+}
+
+.stays p {
+  font-size: 12px;
+  height: 11px;
+  text-align: right;
+  color: black;
+  cursor: auto;
+}
+
+.fourth_div h2 {
+  height: 19px;
+  text-align: right;
+  color: black;
+  cursor: auto;
+}
+
+.fourth_div button {
+  padding: 10px 31px;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+}
+
+.fourth_div button:hover {
+  background-color: #23395d;
+}
+
+.room_reviews {
+  display: flex;
+}
+
+.room_reviews p {
+  font-size: 12px;
+  color: black;
+}
+
+.room_reviews h6 {
+  font-size: 15px;
+  height: 14px;
+  margin-top: 3px;
+  margin-right: 7px;
+  color: black;
+}
+
+.list_heading h1 {
+  text-align: center;
+  margin-right: 123px;
+  margin-top: 49px;
+  font-weight: bold;
+}
