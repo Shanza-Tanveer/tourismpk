@@ -12,7 +12,7 @@ import TravelersList from './TravelersList'
 const Home = () => {
   return (
     <>
-      <BackgroundImage />
+      {/* <BackgroundImage />
       <PropertyLists />
       <DestinationLists />
       <DestinationList2 />
@@ -20,7 +20,41 @@ const Home = () => {
       <CitiesList />
       <CitiesList2 />
       <HomesList />
-      <TravelersList />
+      <TravelersList /> */}
+
+      <BackgroundImage />
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12'>
+            <div className='row'>
+              <div className='col-md-12'>
+                <PropertyLists />
+              </div>
+              <div className='col-md-12'>
+                <DestinationLists />
+              </div>
+              <div className='col-md-12'>
+                <DestinationList2 />
+              </div>
+              <div className='col-md-12'>
+                <DesitinationList3 />
+              </div>
+              <div className='col-md-12'>
+                <CitiesList />
+              </div>
+              <div className='col-md-12'>
+                <CitiesList2 />
+              </div>
+              <div className='col-md-12'>
+                <HomesList />
+              </div>
+              <div className='col-md-12'>
+                <TravelersList />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

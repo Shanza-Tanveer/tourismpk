@@ -7,10 +7,23 @@ import SideFilter from './SideFilter'
 const Property = () => {
   return (
     <>
-      <IslamabadListing />
-      {/* <LahoreListing /> */}
-      <SearchFilter />
-      <SideFilter />
+      <div className='container'>
+        <div className='row'>
+          <div className='col-sm-3 mt-5'>
+            <div className='row mt-5'>
+              <div className='col-sm-12 mt-5'>
+                <SearchFilter />
+              </div>
+              <div className='col-sm-12'>
+                <SideFilter />
+              </div>
+            </div>
+          </div>
+          <div className='col-sm-9'>
+            <IslamabadListing />
+          </div>
+        </div>
+      </div>
     </>
   )
 }

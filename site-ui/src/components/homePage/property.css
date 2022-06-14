@@ -1,10 +1,8 @@
 .property {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .property img {
-  /* width: 100%;
-  height: 78%; */
   width: 178px;
   height: 185px;
   border-radius: 0.4rem;
@@ -31,15 +29,10 @@
 }
 
 .property_h1 {
-  margin-top: 157px;
-  margin-left: 90px;
   font-weight: bold;
 }
 
 .propertylist {
-  width: 90vw;
-  max-width: 1170px;
-  margin: -1rem auto;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }

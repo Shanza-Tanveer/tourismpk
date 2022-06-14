@@ -1,0 +1,53 @@
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.apartment_detail {
+  padding: 8px;
+  max-width: 87%;
+  margin: auto;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.apartment_detail p {
+  position: absolute;
+  margin-left: -11px;
+  font-size: 16px;
+}
+
+.apartment_detail ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apartment_detail li {
+  font-size: 16px;
+  margin-top: 31px;
+  color: grey;
+}
+
+.apartment_icon {
+  position: absolute;
+  margin-left: 51px;
+  transform: scale(2.3);
+}
+
+.kitchen_icon {
+  position: absolute;
+  margin-left: 19px;
+  transform: scale(2.3);
+}
+
+.city_icon {
+  position: absolute;
+  margin-left: 25px;
+  transform: scale(2.3);
+}
+
+.pet_icon {
+  position: absolute;
+  margin-left: 25px;
+  transform: scale(2.3);
+}

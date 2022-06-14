@@ -30,19 +30,14 @@
 
 .destination_h1 {
   margin-top: 56px;
-  margin-left: 90px;
 }
 
 .destination_p2 {
-  margin-left: 90px;
   font-size: 19px;
   color: grey;
 }
 
 .destinationlist {
-  width: 90vw;
-  max-width: 1170px;
-  margin: -1rem auto;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }

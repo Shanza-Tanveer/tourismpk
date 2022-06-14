@@ -1,10 +1,5 @@
 /* 1st div */
 
-.filterlist {
-  position: absolute;
-  margin-left: 141px;
-}
-
 .filterlist div {
   border-color: #c6c6c6;
 }
@@ -137,15 +132,6 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
 /* 5th div */
 
 .health_saftey {
@@ -185,6 +171,7 @@ input:checked + .slider:before {
   color: black;
   cursor: pointer;
   position: absolute;
+  max-width: 153px;
 }
 
 .health_saftey_para p {
@@ -224,3 +211,5 @@ input:checked + .slider:before {
   margin-bottom: 13px;
   font-weight: bold;
 }
+
+/* 1st div */

@@ -1,0 +1,76 @@
+.main_apartment_info {
+  margin-left: 3px;
+}
+
+.top_apartment_info button {
+  width: 218px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  border-style: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  position: relative;
+  left: 29px;
+}
+
+.top_apartment_info button:hover {
+  background-color: #23395d;
+}
+
+.top_apartment_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_apartment_info h1 {
+  font-weight: bold;
+  margin-right: 109px;
+  margin-left: 8px;
+}
+
+.bottom_apartment_info_p p {
+  font-size: 14px;
+}
+
+.top_apartment_info p {
+  height: 28px;
+  font-size: 14px;
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.top_apartment_info_p {
+  height: 24px;
+  padding: 1px 5px;
+  background-color: darkgreen;
+  margin-top: 5px;
+}
+
+.bottom_apartment_info p {
+  font-size: 14px;
+}
+
+.bottom_apartment_info_p1 p {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  text-align: end;
+  margin-top: 18px;
+}
+
+.check_icons {
+  position: absolute;
+  margin-left: 108px;
+  transform: scale(1);
+  margin-top: 23px;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  color: white;
+}

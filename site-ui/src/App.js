@@ -10,6 +10,7 @@ import Rooms from './components/Rooms'
 import Property from './components/listingPage/Property'
 import SignIn from './components/SignIn'
 import SignUp from './components/SignUp'
+import CheckOut from './components/checkOutPage/CheckOut'
 
 const App = () => {
   return (
@@ -19,13 +20,14 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/rooms' element={<Rooms />} />
         <Route path='/property' element={<Property />} />
+        <Route path='/check_out' element={<CheckOut />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='*' element={<Error />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

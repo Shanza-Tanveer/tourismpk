@@ -1,0 +1,47 @@
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.apartment_facilities1 {
+  margin-top: -25px;
+}
+
+.apartment_facilities1 h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 29px;
+}
+
+.apartment_facilities1 p {
+  font-size: 14px;
+}
+
+.apartment_facilities1 li {
+  font-size: 14px;
+  list-style-type: circle;
+  height: 27px;
+}
+
+.apartment_facilities1 div {
+  margin-top: 22px;
+}
+
+.localParking_icon {
+  padding: 1px;
+  position: absolute;
+  transform: scale(1.5);
+  /* color: rgb(0, 128, 9); */
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin-left: 2px;
+}
+
+.facilities_icons {
+  position: absolute;
+  transform: scale(1.5);
+  margin-left: 2px;
+  /* color: rgb(0, 128, 9); */
+}

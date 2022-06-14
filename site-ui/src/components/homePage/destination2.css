@@ -1,42 +1,33 @@
 .destination2 {
-  margin-top: 13px;
+  margin-top: 25px;
 }
 
 .destination2 img {
-  /* width: 116%;
-  height: 50%; */
-  width: 575px;
+  width: 558px;
   height: 315px;
   border-radius: 0.5rem;
 }
 
 .destination2_heading {
-  position: absolute;
-  bottom: -104rem;
-  margin-left: 18px;
-  color: white;
   font-weight: bold;
+  position: relative;
+  bottom: 75px;
+  left: 13px;
 }
 
 .destination2_heading h1 {
   font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 
 .destination2_heading p {
   font-size: 15px;
   line-height: 1.4rem;
-}
-
-.destination2_heading a:hover {
   color: white;
 }
 
 .destinationlist2 {
-  width: 90vw;
-  max-width: 1170px;
-  margin: -1rem auto;
-  margin-top: 1rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }

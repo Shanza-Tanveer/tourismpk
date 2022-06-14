@@ -1,0 +1,27 @@
+.coming_stay {
+  background-color: #e7fde9;
+  border: 1px solid #008009;
+  margin-top: 15px;
+  padding: 9px 1px;
+}
+
+.coming_stay h1 {
+  margin-left: 57px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.coming_stay p {
+  font-size: 14px;
+  margin-left: 57px;
+  margin-top: 7px;
+}
+
+.lock-open_icon {
+  position: absolute;
+  transform: scale(1.9);
+  margin-left: 26px;
+  margin-top: 1px;
+  color: rgb(0, 128, 9);
+}

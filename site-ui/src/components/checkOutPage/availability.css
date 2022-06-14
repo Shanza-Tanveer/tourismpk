@@ -1,0 +1,106 @@
+.main_availability {
+  border-top: solid;
+  border-color: #c6c6c6;
+  border-width: thin;
+  margin-top: 27px;
+}
+
+.availability_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.availability_box p {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  text-align: end;
+  color: black;
+}
+
+.checked_icons {
+  position: absolute;
+  transform: scale(1);
+  background-color: #0071c2;
+  border-color: #0071c2;
+  color: white;
+  margin-left: 53px;
+  margin-top: 5px;
+}
+
+.checkAvailability_box {
+  border-top: 1px solid #cd8900;
+  background: #ffe08a;
+  border-bottom: 1px solid #cd8900;
+  margin-top: 7px;
+}
+
+.checkAvailability_box_p {
+  margin-top: 9px;
+}
+
+.checkAvailability_box_p p {
+  font-size: 17px;
+  margin-left: 12px;
+}
+
+.calenders {
+  display: flex;
+  margin-left: 12px;
+}
+
+.calenders label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 218px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  border-style: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+.btn:hover {
+  background-color: #23395d;
+  color: white;
+}
+
+.datepicker_inputs {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 0.4rem;
+  border-style: none;
+  outline: none;
+  width: 279px;
+}
+
+.requirement {
+  display: flex;
+  margin-left: 12px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.requirement label {
+  font-size: 14px;
+}
+
+.requirement select {
+  height: 22px;
+  width: 43px;
+  outline: none;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.adults_children {
+  margin-left: 34px;
+}

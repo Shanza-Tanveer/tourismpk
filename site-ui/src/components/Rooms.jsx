@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Rooms = () => {
-  return <div>Rooms</div>
+  return <div></div>
 }
 
 export default Rooms

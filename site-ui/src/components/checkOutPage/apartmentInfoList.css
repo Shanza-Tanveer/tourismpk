@@ -1,0 +1,56 @@
+/* * {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.apartment_info_list {
+  float: right;
+  margin-top: 56px;
+  margin-right: 133px;
+}
+
+.apartment_info_list li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 46px 8px 46px;
+  font-weight: bold;
+  background-color: #ebf3ff;
+  border-bottom: 1px solid #bad4f7;
+  color: #0071c2;
+  margin-left: 2px;
+}
+
+.apartment_info_list li:hover {
+  color: black;
+} */
+
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.apartment_info_list {
+  margin-top: 5rem;
+}
+
+.apartment_info_list ul {
+  display: flex;
+}
+
+.apartment_info_list li {
+  font-size: 14px;
+  margin-left: -9px;
+  margin-right: 12px;
+  padding: 8px 50px;
+  font-weight: bold;
+  background-color: #ebf3ff;
+  border-bottom: 1px solid #bad4f7;
+  color: #0071c2;
+  text-align: center;
+}
+
+.apartment_info_list li:hover {
+  color: black;
+}

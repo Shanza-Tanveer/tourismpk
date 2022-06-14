@@ -34,7 +34,7 @@ const DesitinationList3 = () => {
 
         {data.map((curElem) => {
           return (
-            <div className='destination3'>
+            <div className='destination3 '>
               <div>
                 <NavLink to=''>
                   <img src={curElem.image} alt='' className='' />

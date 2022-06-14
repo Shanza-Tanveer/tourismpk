@@ -1,0 +1,17 @@
+* {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.apartment_about {
+  margin-top: 30px;
+}
+
+.apartment_about p {
+  font-size: 14px;
+}
+
+.apartment_about h6 {
+  font-size: 14px;
+  font-weight: bold;
+}

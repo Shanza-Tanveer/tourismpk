@@ -1,0 +1,27 @@
+.area_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.area_info h1 {
+  max-width: 58%;
+  font-weight: bold;
+}
+
+.area_info button {
+  width: 167px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #0071c2;
+  border-color: #0071c2;
+  border-style: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.area_info button:hover {
+  background-color: #23395d;
+  color: white;
+}

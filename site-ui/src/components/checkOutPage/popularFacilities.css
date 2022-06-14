@@ -1,0 +1,44 @@
+.popular_facilities {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.family_parking div {
+  display: inline-block;
+}
+
+.popular_facilities h2 {
+  height: 28px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.king_bed p {
+  margin-left: 21px;
+  font-size: 13px;
+}
+
+.local_parking {
+  margin-left: 19px;
+}
+
+.local_parking p {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.room_icon {
+  position: absolute;
+  transform: scale(1.3);
+  margin-top: 3px;
+  color: #008009;
+}
+
+.parking_icons {
+  position: absolute;
+  transform: scale(1.2);
+  margin-top: 1px;
+  color: white;
+  background-color: #008009;
+  border-color: #008009;
+}
