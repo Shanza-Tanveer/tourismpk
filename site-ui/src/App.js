@@ -10,7 +10,8 @@ import Rooms from './components/Rooms'
 import Property from './components/listingPage/Property'
 import SignIn from './components/SignIn'
 import SignUp from './components/SignUp'
-import CheckOut from './components/checkOutPage/CheckOut'
+// import CheckOut from './components/checkOutPage/CheckOut'
+import SerenityCorner from './components/checkOutPage/serenityCorner/SerenityCorner'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/rooms' element={<Rooms />} />
         <Route path='/property' element={<Property />} />
-        <Route path='/check_out' element={<CheckOut />} />
+        {/* <Route path='/check-out' element={<CheckOut />} /> */}
+        <Route path='serenity-corner' element={<SerenityCorner />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/sign-in' element={<SignIn />} />

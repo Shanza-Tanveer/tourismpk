@@ -1,28 +1,6 @@
 import React from 'react'
-import SearchFilter from '../listingPage/SearchFilter'
-import AccommodationType from './accommodationType'
-import ApartmentAbout from './apartmentAbout'
-import ApartmentDetail from './apartmentDetail'
-import ApartmentImg from './apartmentImg'
-import ApartmentInfoList from './apartmentInfoList'
-import ApartmentInfos from './apartmentInfos'
-import Availability from './availability'
-import CreditCard from './creditCard'
-import PopularFacilities from './popularFacilities'
-import PriceMatch from './priceMatch'
-import PropertyHighlight from './propertyHighlight'
-import UpComingStay from './upComingStay'
-import NearbyPlace from './nearbyPlace'
-import TopAttractions from './topAttractions'
-import ClosestAirport from './closestAirport'
-import AreaInfo from './areaInfo'
-import ApartmentFacility from './apartmentFacility'
-import ApartmentFacilities1 from './apartmentFacilities1'
-import ApartmentFacilities2 from './apartmentFacilities2'
-import ApartmentFacilities3 from './apartmentFacilities3'
-import HouseRules from './houseRules'
 
-const CheckOut = () => {
+const SerenityCorner = () => {
   return (
     <>
       <div className='container'>
@@ -167,4 +145,4 @@ const CheckOut = () => {
   )
 }
 
-export default CheckOut
+export default SerenityCorner

@@ -1,37 +1,37 @@
 import React from 'react'
 import ApartmentImgData from './apartmentImgData'
 import ApartmentImgList from './apartmentImgList'
-// import { useEffect, useState } from 'react'
-// import './apartmentImg.css'
+import { useEffect, useState } from 'react'
+import './apartmentImg.css'
 
 const ApartmentImg = () => {
-  // const [data, setData] = useState([])
+  const [data, setData] = useState([])
 
-  // useEffect(() => {
-  //   fetch('https://run.mocky.io/v3/784a15bb-0b92-4fc6-9f2b-81fa8691215e').then(
-  //     (result) => {
-  //       result.json().then((resp) => {
-  //         setData(resp)
-  //         console.log(resp)
-  //       })
-  //     }
-  //   )
-  // }, [setData])
+  useEffect(() => {
+    fetch('https://run.mocky.io/v3/ab3680e5-4b5a-45c4-b197-e997f9809be1').then(
+      (result) => {
+        result.json().then((resp) => {
+          setData(resp)
+          console.log(resp)
+        })
+      }
+    )
+  }, [setData])
 
-  // console.warn(data)
+  console.warn(data)
 
   return (
     <>
-      {ApartmentImgData.map((ApartmentImg) => {
+      {/* {ApartmentImgData.map((ApartmentImg) => {
         return (
           <ApartmentImgList
             key={ApartmentImg.id}
             {...ApartmentImg}
           ></ApartmentImgList>
         )
-      })}
+      })} */}
 
-      {/* {data.map((curElem) => {
+      {data.map((curElem) => {
         return (
           <img
             className='img-fluid p-1 apartment_img_list'
@@ -39,7 +39,7 @@ const ApartmentImg = () => {
             alt=''
           />
         )
-      })} */}
+      })}
     </>
   )
 }
