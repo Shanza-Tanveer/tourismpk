@@ -1,4 +1,26 @@
 import React from 'react'
+import SearchFilter from '../../listingPage/SearchFilter'
+import SerenityAbout from './serenityAbout'
+import SerenityAccommodationType from './serenityAccommodationType'
+import SerenityAreaInfo from './serenityAreaInfo'
+import SerenityAvailability from './serenityAvailability'
+import SerenityClosestAirport from './serenityClosestAirport'
+import SerenityCreditCard from './serenityCreditCard'
+import SerenityDetail from './serenityDetail'
+import SerenityFacilities1 from './serenityFacilities1'
+import SerenityFacilities2 from './serenityFacilities2'
+import SerenityFacilities3 from './serenityFacilities3'
+import SerenityFacility from './serenityFacility'
+import SerenityHouseRules from './serenityHouseRules'
+import SerenityImg from './serenityImg'
+import SerenityInfoList from './serenityInfoList'
+import SerenityInfos from './serenityInfos'
+import SerenityNearbyPlace from './serenityNearbyPlace'
+import SerenityPopularFacilities from './serenitypopularFacilities'
+import SerenityPriceMatch from './serenitypriceMatch'
+import SerenityPropertyHighlight from './serenityPropertyHighlight'
+import SerenityTopAttractions from './serenityTopAttractions'
+import SerenityUpComingStay from './serenityUpComingStay'
 
 const SerenityCorner = () => {
   return (
@@ -8,7 +30,7 @@ const SerenityCorner = () => {
           <div className='col-md-3'>
             <div className='row'>
               <div className='col-md-12'>
-                <PriceMatch />
+                <SerenityPriceMatch />
               </div>
               <div className='col-md-12'>
                 <SearchFilter />
@@ -18,16 +40,16 @@ const SerenityCorner = () => {
           <div className='col-md-9'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentInfoList />
+                <SerenityInfoList />
               </div>
               <div className='col-md-12'>
-                <ApartmentInfos />
+                <SerenityInfos />
               </div>
               <div className='col-md-12'>
-                <ApartmentImg />
+                <SerenityImg />
               </div>
               <div className='col-md-12'>
-                <ApartmentDetail />
+                <SerenityDetail />
               </div>
             </div>
           </div>
@@ -36,14 +58,14 @@ const SerenityCorner = () => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentAbout />
+                <SerenityAbout />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <PropertyHighlight />
+                <SerenityPropertyHighlight />
               </div>
             </div>
           </div>
@@ -52,22 +74,22 @@ const SerenityCorner = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <PopularFacilities />
+                <SerenityPopularFacilities />
               </div>
               <div className='col-md-12'>
-                <Availability />
+                <SerenityAvailability />
               </div>
               <div className='col-md-12'>
-                <AccommodationType />
+                <SerenityAccommodationType />
               </div>
               <div className='col-md-12'>
-                <CreditCard />
+                <SerenityCreditCard />
               </div>
               <div className='col-md-12'>
-                <UpComingStay />
+                <SerenityUpComingStay />
               </div>
               <div className='col-md-12'>
-                <AreaInfo />
+                <SerenityAreaInfo />
               </div>
             </div>
           </div>
@@ -76,21 +98,21 @@ const SerenityCorner = () => {
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <NearbyPlace />
+                <SerenityNearbyPlace />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <TopAttractions />
+                <SerenityTopAttractions />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <ClosestAirport />
+                <SerenityClosestAirport />
               </div>
             </div>
           </div>
@@ -99,10 +121,10 @@ const SerenityCorner = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacility />
+                <SerenityFacility />
               </div>
               <div className='col-md-12'>
-                <PopularFacilities />
+                <SerenityPopularFacilities />
               </div>
             </div>
           </div>
@@ -111,21 +133,21 @@ const SerenityCorner = () => {
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities1 />
+                <SerenityFacilities1 />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities2 />
+                <SerenityFacilities2 />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities3 />
+                <SerenityFacilities3 />
               </div>
             </div>
           </div>
@@ -135,7 +157,7 @@ const SerenityCorner = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <HouseRules />
+                <SerenityHouseRules />
               </div>
             </div>
           </div>

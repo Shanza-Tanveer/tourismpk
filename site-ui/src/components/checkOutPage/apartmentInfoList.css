@@ -43,7 +43,8 @@
   font-size: 14px;
   margin-left: -9px;
   margin-right: 12px;
-  padding: 8px 50px;
+  padding: 8px;
+  width: 200px;
   font-weight: bold;
   background-color: #ebf3ff;
   border-bottom: 1px solid #bad4f7;

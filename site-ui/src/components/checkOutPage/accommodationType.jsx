@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { KingBedTwoTone, Person } from '@material-ui/icons'
+import ChairIcon from '@mui/icons-material/Chair'
 import './accommodationType.css'
 
 const AccommodationType = () => {
@@ -42,10 +43,12 @@ const AccommodationType = () => {
                     <li>
                       <h5>Living room:</h5>
                       <p>1 sofa bed</p>
+                      <ChairIcon className='sofa_icons' />
                     </li>
                     <li>
                       <h5>Living room:</h5>
                       <p>1 sofa bed</p>
+                      <ChairIcon className='sofa_icons' />
                     </li>
                   </ul>
                 </div>

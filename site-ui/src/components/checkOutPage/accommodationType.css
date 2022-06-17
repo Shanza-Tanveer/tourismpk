@@ -99,3 +99,10 @@
   margin-top: 2px;
   margin-left: 7px;
 }
+
+.sofa_icons {
+  position: relative;
+  margin-left: 9px;
+  margin-top: 4px;
+  transform: scale(1.6);
+}

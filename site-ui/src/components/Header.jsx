@@ -20,17 +20,17 @@ const Header = () => {
             <li>
               <NavLink to='/'>Home</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to='/rooms'>Rooms</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to='/property'>Property</NavLink>
             </li>
-            {/* <li>
-              <NavLink to='/check-out'>Checkout</NavLink>
-            </li> */}
             <li>
-              <NavLink to='/serenity-corner'>SerenityCorner</NavLink>
+              <NavLink to='/check-out'>Checkout</NavLink>
+            </li>
+            <li>
+              <NavLink to='/stunning'>Stunning</NavLink>
             </li>
             <li>
               <NavLink to='/about'>About</NavLink>
