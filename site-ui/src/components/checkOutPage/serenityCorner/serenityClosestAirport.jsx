@@ -1,7 +1,7 @@
 import React from 'react'
 import { Flight } from '@material-ui/icons'
 import { useEffect, useState } from 'react'
-import '../nearbyPlace.css'
+import '../upscalePeaceful/nearbyPlace.css'
 
 const SerenityClosestAirport = () => {
   const [data, setData] = useState([])

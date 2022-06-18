@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { Check } from '@material-ui/icons'
-import '../apartmentInfo.css'
+// import '../apartmentInfo.css'
+import '../upscalePeaceful/apartmentInfo.css'
 
 const StunningInfos = () => {
   const [data, setData] = useState([])

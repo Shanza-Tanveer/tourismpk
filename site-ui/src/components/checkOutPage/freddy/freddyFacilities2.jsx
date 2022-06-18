@@ -1,5 +1,5 @@
 import React from 'react'
-import '../apartmentFacilities.css'
+import '../upscalePeaceful/apartmentFacilities.css'
 import ChairIcon from '@mui/icons-material/Chair'
 import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows'
 import NightShelterIcon from '@mui/icons-material/NightShelter'

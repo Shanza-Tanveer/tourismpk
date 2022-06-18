@@ -1,5 +1,5 @@
 import React from 'react'
-import '../apartmentFacilities.css'
+import '../upscalePeaceful/apartmentFacilities.css'
 import { LocalParking, Wifi, Kitchen, Bathtub } from '@material-ui/icons'
 import KingBedIcon from '@mui/icons-material/KingBed'
 

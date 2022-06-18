@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { KingBedTwoTone, Person } from '@material-ui/icons'
 import ChairIcon from '@mui/icons-material/Chair'
-import '../accommodationType.css'
+import '../upscalePeaceful/accommodationType.css'
 
 const CentaurusAccommodationType = () => {
   return (

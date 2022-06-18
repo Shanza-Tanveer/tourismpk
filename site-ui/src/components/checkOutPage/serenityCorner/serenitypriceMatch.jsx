@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Check } from '@material-ui/icons'
-import '../priceMatch.css'
+import '../upscalePeaceful/priceMatch.css'
 
 const SerenityPriceMatch = () => {
   return (

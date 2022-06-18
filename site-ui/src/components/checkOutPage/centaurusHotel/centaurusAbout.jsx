@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import '../apartmentAbout.css'
+import '../upscalePeaceful/apartmentAbout.css'
 
 const CentaurusAbout = () => {
   const [data, setData] = useState([])

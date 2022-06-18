@@ -1,5 +1,5 @@
 import React from 'react'
-import '../apartmentFacilities.css'
+import '../upscalePeaceful/apartmentFacilities.css'
 import DeckIcon from '@mui/icons-material/Deck'
 import NaturePeopleIcon from '@mui/icons-material/NaturePeople'
 import AcUnitIcon from '@mui/icons-material/AcUnit'

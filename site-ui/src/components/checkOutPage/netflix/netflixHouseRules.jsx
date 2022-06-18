@@ -5,7 +5,7 @@ import FamilyRestroomIcon from '@mui/icons-material/FamilyRestroom'
 import PersonIcon from '@mui/icons-material/Person'
 import CreditCardIcon from '@mui/icons-material/CreditCard'
 import PetsIcon from '@mui/icons-material/Pets'
-import '../houseRules.css'
+import '../upscalePeaceful/houseRules.css'
 
 const NetflixHouseRules = () => {
   return (

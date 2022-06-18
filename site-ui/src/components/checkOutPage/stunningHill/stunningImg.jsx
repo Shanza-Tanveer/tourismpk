@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import '../apartmentImg.css'
+// import '../apartmentImg.css'
+import '../upscalePeaceful/apartmentImg.css'
 
 const StunningImg = () => {
   const [data, setData] = useState([])

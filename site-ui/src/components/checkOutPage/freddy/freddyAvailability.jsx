@@ -4,7 +4,7 @@ import 'react-datepicker/dist/react-datepicker.css'
 import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { Check } from '@material-ui/icons'
-import '../availability.css'
+import '../upscalePeaceful/availability.css'
 
 const FreddyAvailability = () => {
   const [startDate, setStartDate] = useState(null)

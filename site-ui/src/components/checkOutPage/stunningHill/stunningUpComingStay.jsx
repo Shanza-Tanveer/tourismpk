@@ -1,6 +1,7 @@
 import React from 'react'
 import { LockOpen } from '@material-ui/icons'
-import '../upComingStay.css'
+// import '../upComingStay.css'
+import '../upscalePeaceful/upComingStay.css'
 
 const StunningUpComingStay = () => {
   return (

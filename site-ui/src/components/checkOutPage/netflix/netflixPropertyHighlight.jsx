@@ -1,6 +1,6 @@
 import React from 'react'
 import { LocationOn, LocalParking } from '@material-ui/icons'
-import '../propertyHighlight.css'
+import '../upscalePeaceful/propertyHighlight.css'
 
 const NetflixPropertyHighlight = () => {
   return (

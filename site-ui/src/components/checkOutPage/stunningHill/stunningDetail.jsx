@@ -1,11 +1,12 @@
 import React from 'react'
-import '../apartmentDetail.css'
+// import '../apartmentDetail.css'
 import {
   HomeSharp,
   Kitchen,
   LocationCityOutlined,
   PetsOutlined,
 } from '@material-ui/icons'
+import '../upscalePeaceful/apartmentDetail.css'
 
 const StunningDetail = () => {
   return (

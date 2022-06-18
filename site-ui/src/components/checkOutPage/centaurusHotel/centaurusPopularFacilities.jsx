@@ -2,7 +2,7 @@ import React from 'react'
 import { LocalParking, People, Wifi } from '@material-ui/icons'
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter'
 import RoomServiceIcon from '@mui/icons-material/RoomService'
-import '../popularFacilities.css'
+import '../upscalePeaceful/popularFacilities.css'
 
 const CentaurusPopularFacilities = () => {
   return (

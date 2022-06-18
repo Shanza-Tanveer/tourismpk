@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import '../apartmentInfoList.css'
+// import '../apartmentInfoList.css'
+import '../upscalePeaceful/apartmentInfoList.css'
 
 const StunningInfoList = () => {
   return (

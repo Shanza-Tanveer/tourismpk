@@ -10,8 +10,8 @@ import Home from './components/homePage/Home'
 import Property from './components/listingPage/Property'
 import SignIn from './components/SignIn'
 import SignUp from './components/SignUp'
-import CheckOut from './components/checkOutPage/CheckOut'
-import StunningHill from './components/checkOutPage/stunningHill/stunningHill'
+import CheckOut from './components/checkOutPage/upscalePeaceful/CheckOut'
+import LuxStays from './components/checkOutPage/luxStaysApartment/luxStays'
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         {/* <Route path='/rooms' element={<Rooms />} /> */}
         <Route path='/property' element={<Property />} />
         <Route path='/check-out' element={<CheckOut />} />
-        <Route path='/stunning' element={<StunningHill />} />
+        <Route path='/lux-stays' element={<LuxStays />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/sign-in' element={<SignIn />} />

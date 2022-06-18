@@ -1,6 +1,6 @@
 import React from 'react'
 import { CreditCardOutlined } from '@material-ui/icons'
-import '../creditCard.css'
+import '../upscalePeaceful/creditCard.css'
 
 const NetflixCreditCard = () => {
   return (

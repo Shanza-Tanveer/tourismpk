@@ -1,5 +1,6 @@
 import React from 'react'
-import '../areaInfo.css'
+// import '../areaInfo.css'
+import '../upscalePeaceful/areaInfo.css'
 
 const StunningAreaInfo = () => {
   return (

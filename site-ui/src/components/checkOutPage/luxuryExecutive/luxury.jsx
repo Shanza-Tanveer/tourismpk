@@ -1,28 +1,28 @@
 import React from 'react'
-import SearchFilter from '../listingPage/SearchFilter'
-import AccommodationType from './accommodationType'
-import ApartmentAbout from './apartmentAbout'
-import ApartmentDetail from './apartmentDetail'
-import ApartmentImg from './apartmentImg'
-import ApartmentInfoList from './apartmentInfoList'
-import ApartmentInfos from './apartmentInfos'
-import Availability from './availability'
-import CreditCard from './creditCard'
-import PopularFacilities from './popularFacilities'
-import PriceMatch from './priceMatch'
-import PropertyHighlight from './propertyHighlight'
-import UpComingStay from './upComingStay'
-import NearbyPlace from './nearbyPlace'
-import TopAttractions from './topAttractions'
-import ClosestAirport from './closestAirport'
-import AreaInfo from './areaInfo'
-import ApartmentFacility from './apartmentFacility'
-import ApartmentFacilities1 from './apartmentFacilities1'
-import ApartmentFacilities2 from './apartmentFacilities2'
-import ApartmentFacilities3 from './apartmentFacilities3'
-import HouseRules from './houseRules'
+import SearchFilter from '../../listingPage/SearchFilter'
+import LuxuryAbout from './luxuryAbout'
+import LuxuryAccommodationType from './luxuryAccommodationType'
+import LuxuryAreaInfo from './luxuryAreaInfo'
+import LuxuryAvailability from './luxuryAvailability'
+import LuxuryClosestAirport from './luxuryClosestAirport'
+import LuxuryCreditCard from './luxuryCreditCard'
+import LuxuryDetail from './luxuryDetail'
+import LuxuryFacilities1 from './luxuryFacilities1'
+import LuxuryFacilities2 from './luxuryFacilities2'
+import LuxuryFacilities3 from './luxuryFacilities3'
+import LuxuryFacility from './luxuryFacility'
+import LuxuryHouseRules from './luxuryHouseRules'
+import LuxuryImg from './luxuryImg'
+import LuxuryInfoList from './luxuryInfoList'
+import LuxuryInfos from './luxuryInfos'
+import LuxuryNearbyPlace from './luxuryNearbyPlace'
+import LuxuryPopularFacilities from './luxuryPopularFacilities'
+import LuxuryPriceMatch from './luxuryPriceMatch'
+import LuxuryPropertyHighlight from './luxuryPropertyHighlight'
+import LuxuryTopAttractions from './luxuryTopAttractions'
+import LuxuryUpComingStay from './luxuryUpComingStay'
 
-const CheckOut = () => {
+const Luxury = () => {
   return (
     <>
       <div className='container'>
@@ -30,7 +30,7 @@ const CheckOut = () => {
           <div className='col-md-3'>
             <div className='row'>
               <div className='col-md-12'>
-                <PriceMatch />
+                <LuxuryPriceMatch />
               </div>
               <div className='col-md-12'>
                 <SearchFilter />
@@ -40,16 +40,16 @@ const CheckOut = () => {
           <div className='col-md-9'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentInfoList />
+                <LuxuryInfoList />
               </div>
               <div className='col-md-12'>
-                <ApartmentInfos />
+                <LuxuryInfos />
               </div>
               <div className='col-md-12'>
-                <ApartmentImg />
+                <LuxuryImg />
               </div>
               <div className='col-md-12'>
-                <ApartmentDetail />
+                <LuxuryDetail />
               </div>
             </div>
           </div>
@@ -58,14 +58,14 @@ const CheckOut = () => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentAbout />
+                <LuxuryAbout />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <PropertyHighlight />
+                <LuxuryPropertyHighlight />
               </div>
             </div>
           </div>
@@ -74,22 +74,22 @@ const CheckOut = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <PopularFacilities />
+                <LuxuryPopularFacilities />
               </div>
               <div className='col-md-12'>
-                <Availability />
+                <LuxuryAvailability />
               </div>
               <div className='col-md-12'>
-                <AccommodationType />
+                <LuxuryAccommodationType />
               </div>
               <div className='col-md-12'>
-                <CreditCard />
+                <LuxuryCreditCard />
               </div>
               <div className='col-md-12'>
-                <UpComingStay />
+                <LuxuryUpComingStay />
               </div>
               <div className='col-md-12'>
-                <AreaInfo />
+                <LuxuryAreaInfo />
               </div>
             </div>
           </div>
@@ -98,21 +98,21 @@ const CheckOut = () => {
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <NearbyPlace />
+                <LuxuryNearbyPlace />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <TopAttractions />
+                <LuxuryTopAttractions />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-11'>
-                <ClosestAirport />
+                <LuxuryClosestAirport />
               </div>
             </div>
           </div>
@@ -121,10 +121,10 @@ const CheckOut = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacility />
+                <LuxuryFacility />
               </div>
               <div className='col-md-12'>
-                <PopularFacilities />
+                <LuxuryPopularFacilities />
               </div>
             </div>
           </div>
@@ -133,21 +133,21 @@ const CheckOut = () => {
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities1 />
+                <LuxuryFacilities1 />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities2 />
+                <LuxuryFacilities2 />
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-md-12'>
-                <ApartmentFacilities3 />
+                <LuxuryFacilities3 />
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ const CheckOut = () => {
           <div className='col-md-12'>
             <div className='row'>
               <div className='col-md-12'>
-                <HouseRules />
+                <LuxuryHouseRules />
               </div>
             </div>
           </div>
@@ -167,4 +167,4 @@ const CheckOut = () => {
   )
 }
 
-export default CheckOut
+export default Luxury

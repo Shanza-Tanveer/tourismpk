@@ -3,7 +3,8 @@ import { LocalParking, People, Wifi } from '@material-ui/icons'
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle'
 import RestaurantIcon from '@mui/icons-material/Restaurant'
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter'
-import '../popularFacilities.css'
+// import '../popularFacilities.css'
+import '../upscalePeaceful/popularFacilities.css'
 
 const StunningPopularFacilities = () => {
   return (

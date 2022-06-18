@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { Check } from '@material-ui/icons'
-import '../apartmentInfo.css'
+import '../upscalePeaceful/apartmentInfo.css'
 
 const FreddyInfos = () => {
   const [data, setData] = useState([])

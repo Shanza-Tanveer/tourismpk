@@ -1,5 +1,5 @@
 import React from 'react'
-import '../areaInfo.css'
+import '../upscalePeaceful/areaInfo.css'
 
 const SerenityFacility = () => {
   return (

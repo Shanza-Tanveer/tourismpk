@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import '../apartmentImg.css'
+import '../upscalePeaceful/apartmentImg.css'
 
 const NetflixImg = () => {
   const [data, setData] = useState([])
