@@ -15,7 +15,7 @@ const BackgroundImage = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('https://run.mocky.io/v3/617570f2-017e-4aff-bd66-1da41438633d').then(
+    fetch('https://run.mocky.io/v3/5d3eb0ca-eabf-40c8-b0d5-2b74b75f8404').then(
       (result) => {
         result.json().then((resp) => {
           setData(resp)

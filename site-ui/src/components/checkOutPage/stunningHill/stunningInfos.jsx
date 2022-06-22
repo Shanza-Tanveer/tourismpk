@@ -30,7 +30,7 @@ const StunningInfos = () => {
                   <p>Apartment</p>
                   <h1>{curElem.apartmentName}</h1>
                 </div>
-                <div className='col-sm-10 mt-4 bottom_apartment_info_p '>
+                <div className='col-sm-10 bottom_apartment_info_p '>
                   <p>{curElem.apartmentAddress}</p>
                 </div>
               </div>
